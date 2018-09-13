@@ -1,0 +1,7 @@
+<h2 class="text-xs-center">All Posts</h2>
+    <hr />
+    <div class="card-columns">
+      <div *ngFor="let post of posts" class="card">
+        <app-post [post]="post"></app-post>
+      </div>
+    </div>
